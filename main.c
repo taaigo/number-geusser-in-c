@@ -4,7 +4,7 @@
 
 int main() {
     srand(time(NULL));
-    int secret = rand() % 1000 + 1; printf("%d", secret);
+    int secret = rand() % 1000 + 1;
     int guess;
     int win = 0;
     int tries = 0;
